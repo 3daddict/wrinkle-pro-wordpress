@@ -34,8 +34,8 @@
       </div>
       <div class="navbar navbar-dark bg-dark shadow-sm">
         <div class="container d-flex justify-content-between">
-          <a href="#" class="navbar-brand d-flex align-items-center">
-            <strong>Wrinkle Pro</strong>
+          <a href="https://wrinklepro.com" class="navbar-brand d-flex align-items-center">
+          <img class="mr-2" id="navLogo" src="https://wrinklepro.com/wp-content/uploads/2018/12/eye-ball.png" alt="eye_logo" /><strong>Wrinkle Pro</strong>
           </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
