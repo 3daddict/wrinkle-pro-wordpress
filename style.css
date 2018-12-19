@@ -21,6 +21,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .title--background {
     padding: 6rem;
+    /* background-image: url('http://wrinklepro.local/wp-content/uploads/2018/12/Hero_Background-1.png');
+    background-size: cover;
+    background-repeat: no-repeat; */
     background: linear-gradient(to bottom right, #32229D, #BB60CC);
 }
 
@@ -30,6 +33,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .title--background p {
     font-size: calc(0.8rem + 1.0vw);
+}
+
+#footerLogo {
+    max-height: 150px;
 }
 
 @media all and (min-width: 1280px) {
