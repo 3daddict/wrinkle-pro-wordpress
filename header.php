@@ -6,7 +6,7 @@
     <!-- <meta name="description" content="">
     <meta name="author" content=""> -->
 
-    <title><?php wp_title(); ?></title>
+    <title class="wp--title"><?php wp_title(); ?></title>
 
     <?php wp_head(); ?>
   </head>
