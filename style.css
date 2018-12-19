@@ -10,3 +10,46 @@ h1, h2, h3, h4, h5, h6 {
 #navLogo {
     max-height: 40px;
 }
+
+.navbar-brand {
+    font-weight: 100;
+}
+
+.jumbotron {
+    margin-bottom: 0;
+}
+
+.title--background {
+    padding: 6rem;
+    background: linear-gradient(to bottom right, #32229D, #BB60CC);
+}
+
+.title--background h1 {
+    font-size: calc(0.8rem + 4.0vw);
+}
+
+.title--background p {
+    font-size: calc(0.8rem + 1.0vw);
+}
+
+@media all and (min-width: 1280px) {
+
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    .title--background {
+        padding: 5rem;
+    }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+    .title--background {
+        padding: 4rem;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .title--background {
+        padding: 3rem;
+    }
+}
