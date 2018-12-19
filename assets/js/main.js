@@ -1,11 +1,17 @@
 jQuery(document).ready(function($) {
 
-    
+
 
 });
 
-(function removeElements(){
-    $('#videoColumn').remove('#firstH');
-    $('#videoColumn').remove('#firstP');
-    console.log('Running')
-    })();
+const audioFile = document.getElementById("playAudio"); 
+
+    function playAudio() { 
+        audioFile.play();
+
+    }
+
+    function pauseAudio() { 
+        audioFile.pause();
+        
+    } 
