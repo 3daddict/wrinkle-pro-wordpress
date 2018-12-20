@@ -35,6 +35,29 @@ h1, h2, h3, h4, h5, h6 {
     font-size: calc(0.8rem + 1.0vw);
 }
 
+.parallax {
+    background-image: url("http://wrinklepro.local/wp-content/uploads/2018/12/ribbon-group-1.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax__title {
+    background-color: rgba(126, 49, 49, 0.5);
+    padding: 80px 40px;
+    text-align: center;
+}
+
+.parallax__title h3 {
+    font-size: calc(0.7rem + 3.5vw);
+}
+
+.parallax__p {
+    font-weight: 200;
+    font-size: calc(0.8rem + 1.0vw);
+}
+
 #footerLogo {
     max-height: 150px;
 }
@@ -53,10 +76,16 @@ h1, h2, h3, h4, h5, h6 {
     .title--background {
         padding: 4rem;
     }
+    .parallax__title {
+        padding: 60px 20px;
+    }
 }
 
 @media all and (max-width: 480px) {
     .title--background {
         padding: 3rem;
+    }
+    .parallax__title {
+        padding: 40px 10px;
     }
 }
